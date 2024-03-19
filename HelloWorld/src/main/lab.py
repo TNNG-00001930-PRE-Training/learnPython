@@ -9,7 +9,7 @@ class Lab:
 
         TODO: Change this method so that it returns "Hello, World!".
 
-        This method currently returns "Your turn!". Instead, it should return
+        This method currently returns "Your turn!". Instead ofs, it should return
         "Hello, World!". A test case will check if the behavior is as expected.
         """
         return "Hello, World!"
