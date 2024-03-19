@@ -7,7 +7,8 @@ def get_user_input_string(prompt):
     :param prompt: The prompt to display to the user.
     :return: The string entered by the user.
     """
-    return None # Replace None with your code
+    user_input = input(prompt)
+    return user_input 
 
 def get_user_input_integer(prompt):
     """
@@ -18,7 +19,8 @@ def get_user_input_integer(prompt):
     """
     while True:
         try:
-            return None # Replace None with your code
+            user_input = int(input(prompt))
+            return user_input 
         except ValueError:
             print("Invalid input. Please enter an integer.")
 
@@ -34,6 +36,7 @@ def get_user_input_float(prompt):
     """
     while True:
         try:
-            return None # Replace None with your code
+            user_input = float(input(prompt))
+            return user_input 
         except ValueError:
             print("Invalid input. Please enter a float.")
