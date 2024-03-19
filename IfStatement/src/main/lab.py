@@ -9,7 +9,12 @@ def even_or_odd(num):
     
     Instead of returning Null this method should check the condition and return whether the number is Even or Odd.
     
+    
     :param num: An integer number to check.
     :return: 'Even' if the number is even, 'Odd' if the number is odd.
     """
-    return ''
+    if num % 2 == 0:
+        return'Even'
+    else:
+        return 'Odd'
+    
